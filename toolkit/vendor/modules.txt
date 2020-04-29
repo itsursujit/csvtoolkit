@@ -1,0 +1,11 @@
+# github.com/klauspost/compress v1.10.5
+github.com/klauspost/compress/flate
+# github.com/klauspost/pgzip v1.2.3
+github.com/klauspost/pgzip
+# github.com/shenwei356/xopen v0.0.0-20181203091311-f4f16ddd3992
+github.com/shenwei356/xopen
+# gopkg.in/VividCortex/ewma.v1 v1.1.1
+gopkg.in/VividCortex/ewma.v1
+# gopkg.in/cheggaaa/pb.v2 v2.0.7
+gopkg.in/cheggaaa/pb.v2
+gopkg.in/cheggaaa/pb.v2/termutil
