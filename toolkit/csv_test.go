@@ -27,3 +27,13 @@ func Test_OutPut(t *testing.T) {
 	err := Output(flags,"test.csv")
 	fmt.Println(err)
 }
+
+func Test_Format(t *testing.T) {
+	flags := FormatInput{
+		Fields: []int{1},
+		IgnoreCase: true,
+		OutFile: "test.csv",
+	}
+	err := From("1.csv").Format(flags)
+	fmt.Println(err)
+}
