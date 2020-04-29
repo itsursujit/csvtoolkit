@@ -1,0 +1,29 @@
+package csvtk
+
+import (
+	"fmt"
+	"testing"
+)
+
+func Test_CSV(t *testing.T) {
+
+reader, err := NewCSVReader("1.csv",4096,4096)
+if err != nil {
+	fmt.Println(err)
+}
+reader.Run()
+fmt.Println(reader)
+
+}
+
+func Test_OutPut(t *testing.T) {
+	flags := InputFlags{
+		PrintFreq: 1,
+		Total: 100,
+		Buffsize: 4096,
+		Lines: true,
+		Files: []string {"1.csv"},
+	}
+	err := Output(flags,"test.csv")
+	fmt.Println(err)
+}
