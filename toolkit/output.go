@@ -10,16 +10,16 @@ import (
 	"gopkg.in/cheggaaa/pb.v2"
 )
 
-type InputFlags struct{
+type InputFlags struct {
 	PrintFreq int
-	Buffsize int
-	Lines bool
-	Total int
-	Files []string
+	Buffsize  int
+	Lines     bool
+	Total     int
+	Files     []string
 }
 
 //Output ...
-func Output(in InputFlags, outFile string) error{
+func Output(in InputFlags, outFile string) error {
 
 	//config := getConfigs(cmd)//todo:sachin:might want to add configs
 	//outFile := config.OutFile
