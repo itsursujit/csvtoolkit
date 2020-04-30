@@ -2,6 +2,13 @@
 github.com/klauspost/compress/flate
 # github.com/klauspost/pgzip v1.2.3
 github.com/klauspost/pgzip
+# github.com/shenwei356/bpool v0.0.0-20160710042833-f9e0ee4d0403
+github.com/shenwei356/bpool
+# github.com/shenwei356/natsort v0.0.0-20190418160752-600d539c017d
+github.com/shenwei356/natsort
+# github.com/shenwei356/util v0.0.0-20190523143900-f71ff373860c
+github.com/shenwei356/util/stringutil
+github.com/shenwei356/util/byteutil
 # github.com/shenwei356/xopen v0.0.0-20181203091311-f4f16ddd3992
 github.com/shenwei356/xopen
 # gopkg.in/VividCortex/ewma.v1 v1.1.1
